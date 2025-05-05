@@ -1,12 +1,14 @@
-package org.graph.algorithms;
+package org.graph.algorithms.basic.algo;
 
 
-import org.graph.algorithms.basic.model.*;
-import org.graph.algorithms.basic.algo.*;
+import org.graph.algorithms.basic.model.DirectedGraph;
+import org.graph.algorithms.basic.model.UndirectedGraph;
+import org.graph.algorithms.basic.model.UnweightedGraph;
+import org.graph.algorithms.basic.model.WeightedGraph;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class MainMenu {
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

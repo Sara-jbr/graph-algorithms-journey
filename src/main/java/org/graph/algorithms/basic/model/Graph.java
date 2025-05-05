@@ -1,6 +1,9 @@
 package org.graph.algorithms.basic.model;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Graph {
     private final Map<String, List<String>> adjList;
